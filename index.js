@@ -219,8 +219,7 @@ class ProjectManager extends Instructor {
    debugsCode (student, subject) {
     return `${this.name} debugs ${student.name}'s code on ${subject}`;
    }
-   grade(subject){
-    return `${student.name} receives a perfect score on ${subject}`; 
+   
   }
 
 /*
@@ -236,6 +235,7 @@ class ProjectManager extends Instructor {
 //End of Challenge
 /* 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 Please do not modify anything below this line 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑 */
 function foo(){
+  console.log('its working!');
   return 'bar';
 }
 
